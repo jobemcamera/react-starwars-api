@@ -1,12 +1,32 @@
+@import url('https://allfont.net/allfont.css?fonts=star-jedi');
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Star Jedi', arial;
+  font-weight: 300;
 }
 
 body {
   margin: 0;
-  background-color: #272727;
+  background-color: #000000;
+  background-image: url('../public/src/starwars-bg.jpg');
+  background-position: top left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #01132B;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000f22;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
 }
