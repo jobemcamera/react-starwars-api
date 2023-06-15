@@ -58,7 +58,7 @@ function App() {
   return (
     <React.Fragment>
       <section>
-        <button onClick={fecthMoviesHandler}>Fetch Movies</button>
+        <button onClick={fecthMoviesHandler}>Star Wars</button>
       </section>
       <section>{content}</section>
     </React.Fragment>
